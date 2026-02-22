@@ -67,7 +67,7 @@ Automatic caption generation for each frame using BLIP.
 Clone the repository:
 
 
-git clone https://github.com/your-username/ai-cinematic-shortfilm.git
+git clone https://github.com/lacithelaci/ai-cinematic-shortfilm.git
 
 cd ai-cinematic-shortfilm
 
