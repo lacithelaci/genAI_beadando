@@ -1,19 +1,27 @@
-# PyTorch és TorchVision
-torch==2.11.0
-torchvision==0.17.0
-
-# Hugging Face csomagok
-transformers==4.35.0
-diffusers==0.21.2
-accelerate==0.23.0
-huggingface_hub==0.36.2
-safetensors>=0.3.1
-
-# Egyéb gépi tanulás / numerikus csomagok
+# AI / ML
+torch>=2.0.0
+transformers>=4.30.0
+diffusers>=0.20.0
+accelerate>=0.22.0
+safetensors>=0.3.0
 numpy>=1.25.0
 scikit-learn>=1.3.0
-Pillow>=10.0.0
 
-# Streamlit segédcsomagok
-rich>=14.3.3
-markdown-it-py>=4.0.0
+# Image / PDF / TTS
+Pillow>=10.0.0
+PyPDF2
+fpdf>=1.7.2
+gTTS>=2.5.4
+
+# Web / UI
+streamlit>=1.30.0
+requests>=2.32.4
+typer>=0.12.0
+
+# LangChain / LLM
+langchain-groq>=0.1.0
+langchain-core>=0.1.0
+
+# Environment & typing
+python-dotenv>=1.0.0
+typing-extensions>=4.7.1
